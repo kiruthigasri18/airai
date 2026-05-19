@@ -138,7 +138,7 @@ Click ➕ Add Connection.
 Use these values:
 
 Field	Value
-Name	PostgreSQL
+Name	Airflow PostgreSQL
 Host name/address	localhost
 Port	5432
 Maintenance database	airflow_db
