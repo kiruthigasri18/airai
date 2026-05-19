@@ -144,3 +144,41 @@ Port	5432
 Maintenance database	airflow_db
 Username	postgres
 Password	Your PostgreSQL password
+
+airflow password if you forgot: docker logs airflow-docker-airflow-1 | Select-String -Pattern "password"
+
+
+airflow run : 
+docker exec -u root -it airflow bash
+ls
+exit 
+go to the path 
+docker cp airflow:/opt/airflow/dags/employee_etl_dag.py .
+notepad employee_etl_dag.py
+docker cp employee_etl_dag.py airflow:/opt/airflow/dags/employee_etl_dag.py
+docker exec -it airflow bash
+ls
+cd dags
+ls
+cat employee_etl_dag.py
+
+run llm 
+
+cd "C:\project"
+cd llm
+python investigation_engine.py
+
+
+then go to the pg admin and see if the records have been added after the mistake you have done in the code "unresolved"
+
+
+ cd "C:\project"
+python action_engine.py
+
+
+then go to the pg admin and see if the records have been added and updated to "resolved"
+
+
+
+
+
