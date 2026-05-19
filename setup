@@ -138,10 +138,9 @@ Click ➕ Add Connection.
 Use these values:
 
 Field	Value
-Connection Id	postgres_conn
-Connection Type	Postgres
-Host	host.docker.internal
-Schema	airflow_db
-Login	postgres
-Password	your_postgres_password
+Name	PostgreSQL
+Host name/address	localhost
 Port	5432
+Maintenance database	airflow_db
+Username	postgres
+Password	Your PostgreSQL password
