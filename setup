@@ -145,7 +145,7 @@ Maintenance database	airflow_db
 Username	postgres
 Password	Your PostgreSQL password
 
-airflow password if you forgot: docker logs airflow-docker-airflow-1 | Select-String -Pattern "password"
+airflow password if you forgot: docker logs airflow | Select-String -Pattern "password"
 
 
 airflow run : 
